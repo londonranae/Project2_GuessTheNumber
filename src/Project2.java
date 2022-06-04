@@ -18,6 +18,7 @@ public class Project2 {
                 if (Objects.equals(answer2, "y")) {
                     guessCount = 6;
                 } if (Objects.equals(answer2, "n")) {
+                    guessCount = 0;
                     break;
                 }
             }
@@ -36,6 +37,7 @@ public class Project2 {
                     System.out.println("Pick a number between 1 and 20.");
                 }
                 if (Objects.equals(answer, "n")) {
+                    guessCount = 0;
                     break;
                 }
             }
